@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|c:\\users\\219747\\projetos\\webapiusuario_net_9\\webapiusuarios\\webapiusuarios\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|solutionrelative:webapiusuarios\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|c:\\users\\219747\\projetos\\webapiusuario_net_9\\webapiusuarios\\webapiusuarios\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|solutionrelative:webapiusuarios\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|c:\\users\\219747\\projetos\\webapiusuario_net_9\\webapiusuarios\\webapiusuarios\\services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|solutionrelative:webapiusuarios\\services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|c:\\users\\219747\\projetos\\webapiusuario_net_9\\webapiusuarios\\webapiusuarios\\services\\senha\\senhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|solutionrelative:webapiusuarios\\services\\senha\\senhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|c:\\users\\219747\\projetos\\webapiusuario_net_9\\webapiusuarios\\webapiusuarios\\services\\senha\\isenhainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|solutionrelative:webapiusuarios\\services\\senha\\isenhainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B964B7FB-D8F6-43E6-BC99-DE447226B538}|WebApiUsuarios\\WebApiUsuarios.csproj|c:\\users\\219747\\projetos\\webapiusuario_net_9\\webapiusuarios\\webapiusuarios\\services\\usuario\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,14 +47,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "WebApiUsuarios\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "WebApiUsuarios\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCsAAABHAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebApiUsuarios\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebApiUsuarios\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T20:00:31.083Z",
+              "WhenOpened": "2025-10-28T23:10:25.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SenhaService.cs",
+              "DocumentMoniker": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Services\\Senha\\SenhaService.cs",
+              "RelativeDocumentMoniker": "WebApiUsuarios\\Services\\Senha\\SenhaService.cs",
+              "ToolTip": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Services\\Senha\\SenhaService.cs",
+              "RelativeToolTip": "WebApiUsuarios\\Services\\Senha\\SenhaService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA2wDAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T23:32:48.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISenhaInterface.cs",
+              "DocumentMoniker": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Services\\Senha\\ISenhaInterface.cs",
+              "RelativeDocumentMoniker": "WebApiUsuarios\\Services\\Senha\\ISenhaInterface.cs",
+              "ToolTip": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Services\\Senha\\ISenhaInterface.cs",
+              "RelativeToolTip": "WebApiUsuarios\\Services\\Senha\\ISenhaInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T23:32:47.587Z",
               "EditorCaption": ""
             },
             {
@@ -57,22 +91,22 @@
               "RelativeDocumentMoniker": "WebApiUsuarios\\Services\\Usuario\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Services\\Usuario\\UsuarioService.cs",
               "RelativeToolTip": "WebApiUsuarios\\Services\\Usuario\\UsuarioService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAUwFMAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAuwJQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T19:59:37.581Z",
+              "WhenOpened": "2025-10-28T23:15:18.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IUsuarioInterface.cs",
               "DocumentMoniker": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Services\\Usuario\\IUsuarioInterface.cs",
               "RelativeDocumentMoniker": "WebApiUsuarios\\Services\\Usuario\\IUsuarioInterface.cs",
               "ToolTip": "C:\\Users\\219747\\projetos\\WebApiUsuario_Net_9\\WebApiUsuarios\\WebApiUsuarios\\Services\\Usuario\\IUsuarioInterface.cs",
               "RelativeToolTip": "WebApiUsuarios\\Services\\Usuario\\IUsuarioInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T19:59:56.9Z",
+              "WhenOpened": "2025-10-28T23:15:16.946Z",
               "EditorCaption": ""
             }
           ]

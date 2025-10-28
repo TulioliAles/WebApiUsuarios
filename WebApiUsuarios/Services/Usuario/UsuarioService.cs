@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using WebApiUsuarios.Data;
+using WebApiUsuarios.Dto.Login;
 using WebApiUsuarios.Dto.Usuario;
 using WebApiUsuarios.Models;
 using WebApiUsuarios.Services.Senha;
@@ -115,6 +116,46 @@ namespace WebApiUsuarios.Services.Usuario
             }
         }
 
+        public async Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+            ResponseModel<UsuarioModel> response = new ResponseModel<UsuarioModel>();
+
+            try
+            {
+                var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == usuarioLoginDto.Email);
+
+                if(usuario == null)
+                {
+                    response.Mensagem = "Credenciais inválidas!";
+                    return response;
+                }
+
+                if (!_senhaInterface.VerificaSenhaHash(usuarioLoginDto.Senha, usuario.SenhaHash, usuario.SenhaSalt))
+                {
+                    response.Mensagem = "Credenciais inválidas!";
+                    return response;
+                }
+
+                var token = _senhaInterface.CriarToken(usuario);
+
+                usuario.Token = token;
+
+                _context.Update(usuario);
+                await _context.SaveChangesAsync();
+
+                response.Dados = usuario;
+                response.Mensagem = "Usuário logado com sucesso!";
+
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.Mensagem = ex.Message;
+                response.Status = false;
+                return response;
+            }
+        }
+
         public async Task<ResponseModel<UsuarioModel>> RegistrarUsuario(UsuarioCriacaoDto usuarioCriacaoDto)
         {
             ResponseModel<UsuarioModel> response = new ResponseModel<UsuarioModel>();
@@ -134,6 +175,8 @@ namespace WebApiUsuarios.Services.Usuario
 
                 usuario.SenhaHash = senhaHash;
                 usuario.SenhaSalt = senhaSalt;
+                usuario.DataCriacao = DateTime.Now;
+                usuario.DataAlteração = DateTime.Now;
 
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();

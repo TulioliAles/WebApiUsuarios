@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "WebApiUsuarios.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioLoginDto",
+        "Type": "WebApiUsuarios.Dto.Login.UsuarioLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiUsuarios.Controllers.LoginController",
     "Method": "RegistrarUsuario",
     "RelativePath": "api/Login/Register",
     "HttpMethod": "POST",

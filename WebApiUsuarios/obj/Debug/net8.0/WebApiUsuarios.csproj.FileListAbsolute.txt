@@ -145,3 +145,4 @@ C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\D
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.pdb
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.genruntimeconfig.cache
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\ref\WebApiUsuarios.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.sourcelink.json

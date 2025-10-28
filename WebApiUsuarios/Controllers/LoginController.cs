@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApiUsuarios.Dto.Login;
 using WebApiUsuarios.Dto.Usuario;
 using WebApiUsuarios.Services.Usuario;
 
@@ -19,6 +20,13 @@ namespace WebApiUsuarios.Controllers
         public async Task<IActionResult> RegistrarUsuario(UsuarioCriacaoDto usuarioCriacaoDto)
         {
             var usuario = await _usuarioInterface.RegistrarUsuario(usuarioCriacaoDto);
+            return Ok(usuario);
+        }
+
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+            var usuario = await _usuarioInterface.Login(usuarioLoginDto);
             return Ok(usuario);
         }
     }
