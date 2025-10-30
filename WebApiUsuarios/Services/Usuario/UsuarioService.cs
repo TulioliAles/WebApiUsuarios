@@ -1,9 +1,12 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.Json;
+using Newtonsoft.Json;
 using WebApiUsuarios.Data;
 using WebApiUsuarios.Dto.Login;
 using WebApiUsuarios.Dto.Usuario;
 using WebApiUsuarios.Models;
+using WebApiUsuarios.Services.Auditoria;
 using WebApiUsuarios.Services.Senha;
 
 namespace WebApiUsuarios.Services.Usuario
@@ -13,14 +16,21 @@ namespace WebApiUsuarios.Services.Usuario
         private readonly AppDbContext _context;
         private readonly ISenhaInterface _senhaInterface;
         private readonly IMapper _mapper;
+        private readonly IAuditoriaInterface _auditoriaInterface;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public UsuarioService(AppDbContext context, ISenhaInterface senhaInterface, IMapper mapper)
+        public UsuarioService(AppDbContext context, ISenhaInterface senhaInterface, IMapper mapper, 
+                                IAuditoriaInterface auditoriaInterface, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _senhaInterface = senhaInterface;
             _mapper = mapper;
+            _auditoriaInterface = auditoriaInterface;
+            _httpContextAccessor = httpContextAccessor;
         }
 
+        public IAuditoriaInterface AuditoriaInterface { get; }
+        public IHttpContextAccessor HttpContextAccessor { get; }
 
         public async Task<ResponseModel<UsuarioModel>> BuscarUsuario(int id)
         {
@@ -66,6 +76,8 @@ namespace WebApiUsuarios.Services.Usuario
                     return response;
                 }
 
+                var dadosAntes = JsonConvert.SerializeObject(usuarioBanco);
+
                 usuarioBanco.Nome = usuarioEdicaoDto.Nome;
                 usuarioBanco.Sobrenome = usuarioEdicaoDto.Sobrenome;
                 usuarioBanco.Email = usuarioEdicaoDto.Email;
@@ -77,6 +89,12 @@ namespace WebApiUsuarios.Services.Usuario
 
                 response.Mensagem = "Usuário editado com sucesso!";
                 response.Dados = usuarioBanco;
+
+                var dadosDepois = JsonConvert.SerializeObject(usuarioBanco);
+
+                var usuarioId = _httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
+
+                await _auditoriaInterface.RegistrarAuditoriaAsync("Atualização", usuarioId, $"Antes: {dadosAntes}, Depois: {dadosDepois}");
 
                 return response;
             }
@@ -214,6 +232,13 @@ namespace WebApiUsuarios.Services.Usuario
 
                 response.Dados = usuario;
                 response.Mensagem = $"Usuário {usuario.Nome} removido com sucesso!";
+
+                var dadosAntes = JsonConvert.SerializeObject(usuario);
+
+                var usuarioId = _httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
+
+                await _auditoriaInterface.RegistrarAuditoriaAsync("Remoção", usuarioId, $"Antes: {dadosAntes}");
+
 
                 return response;
             }

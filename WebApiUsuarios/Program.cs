@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Swashbuckle.AspNetCore.Filters;
 using WebApiUsuarios.Data;
+using WebApiUsuarios.Services.Auditoria;
 using WebApiUsuarios.Services.Senha;
 using WebApiUsuarios.Services.Usuario;
 
@@ -17,8 +18,11 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUsuarioInterface, UsuarioService>();
 builder.Services.AddScoped<ISenhaInterface, SenhaService>();
+builder.Services.AddScoped<IAuditoriaInterface, AuditoriaService>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {

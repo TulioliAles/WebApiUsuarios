@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "WebApiUsuarios.Controllers.AuditoriaController",
+    "Method": "BuscarAuditorias",
+    "RelativePath": "api/Auditoria/Auditoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiUsuarios.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/Login",

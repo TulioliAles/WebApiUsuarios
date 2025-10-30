@@ -6,6 +6,29 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Auditoria/Auditoria": {
+      "get": {
+        "tags": [
+          "Auditoria"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
     "/api/Login/Register": {
       "post": {
         "tags": [

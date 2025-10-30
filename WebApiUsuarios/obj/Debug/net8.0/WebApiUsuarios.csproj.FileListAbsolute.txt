@@ -150,3 +150,4 @@ C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\D
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Scrutor.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Newtonsoft.Json.dll
