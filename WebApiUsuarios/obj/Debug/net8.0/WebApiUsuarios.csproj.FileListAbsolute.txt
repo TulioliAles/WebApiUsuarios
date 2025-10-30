@@ -146,3 +146,7 @@ C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\D
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.genruntimeconfig.cache
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\ref\WebApiUsuarios.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.sourcelink.json
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Scrutor.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

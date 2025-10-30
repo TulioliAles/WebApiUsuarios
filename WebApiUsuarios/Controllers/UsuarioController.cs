@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApiUsuarios.Dto.Usuario;
 using WebApiUsuarios.Services.Usuario;
@@ -7,6 +8,7 @@ namespace WebApiUsuarios.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioInterface _usuarioInterface;
