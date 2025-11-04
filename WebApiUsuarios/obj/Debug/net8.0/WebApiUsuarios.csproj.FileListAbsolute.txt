@@ -10,6 +10,7 @@ C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\D
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Humanizer.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -40,6 +41,10 @@ C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\D
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Scrutor.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -130,6 +135,7 @@ C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\D
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.csproj.CoreCompileInputs.cache
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.sourcelink.json
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -145,9 +151,3 @@ C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\D
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.pdb
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.genruntimeconfig.cache
 C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\ref\WebApiUsuarios.dll
-C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\obj\Debug\net8.0\WebApiUsuarios.sourcelink.json
-C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Scrutor.dll
-C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
-C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
-C:\Users\219747\projetos\WebApiUsuario_Net_9\WebApiUsuarios\WebApiUsuarios\bin\Debug\net8.0\Newtonsoft.Json.dll
